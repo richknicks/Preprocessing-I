@@ -130,6 +130,9 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+// variables
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -144,7 +147,9 @@ body {
   font-size: 62.5%;
   width: 800px;
   margin: 0 auto;
-  border: 1px solid red;
+  font-family: 'Pacifico', cursive;
+
+  
 }
 
 .container {
@@ -222,34 +227,32 @@ body {
     justify-content: space-between;
     margin: 5% 0;
     .left-box {
-	  width: 47.5%;
-	  line-height: 40px;
+      width: 47.5%;
+      line-height: 68px;
       h2 {
         font-size: 3rem;
       } // h2 left box
     } // left box
     .right-box {
-	  width: 47.5%;
-	  line-height: 40px;
+      width: 47.5%;
+      line-height: 40px;
       h2 {
         font-size: 2rem;
-	  } //h2 right box
-	  .skills-table {
-		  width: 100%;
-		  tr {
-			border: 1px solid lightgray;
-			td {
-			  height: 30px;
-			  border: 1px solid lightgray;
-			} //td work history
-			th {
-			  text-align: left;
-			  height: 30px;
-			} //th work history
-		  } //tr work history
-
-	  }//skills table
-     
+      } //h2 right box
+      .skills-table {
+        width: 100%;
+        tr {
+          border: 1px solid lightgray;
+          td {
+            height: 30px;
+            border: 1px solid lightgray;
+          } //td work history
+          th {
+            text-align: left;
+            height: 30px;
+          } //th work history
+        } //tr work history
+      } //skills table
     } // right box
   } // middle section
   .bottom-section-table {
@@ -258,8 +261,8 @@ body {
       font-size: 2rem;
     } //h2 bottom section
     .work-history {
-	  width: 100%;
-	  line-height: 40px;
+      width: 100%;
+      line-height: 40px;
 
       tr {
         border: 1px solid lightgray;
@@ -274,4 +277,10 @@ body {
       } //tr work history
     } // work history
   } // bottom section
+  footer {
+    text-align: center;
+    widows: 100%;
+    background-color: lightsteelblue;
+    padding: 5%;
+  } //footer
 } // container

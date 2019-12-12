@@ -127,6 +127,13 @@ table {
   border-spacing: 0;
 }
 /* Set every element's box-sizing to border-box */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -139,7 +146,7 @@ body {
   font-size: 62.5%;
   width: 800px;
   margin: 0 auto;
-  border: 1px solid red;
+  font-family: 'Pacifico', cursive;
 }
 .container {
   max-width: 80%;
@@ -229,7 +236,7 @@ body {
 }
 .container .middle-section .left-box {
   width: 47.5%;
-  line-height: 40px;
+  line-height: 68px;
 }
 .container .middle-section .left-box h2 {
   font-size: 3rem;
@@ -275,4 +282,10 @@ body {
 .container .bottom-section-table .work-history tr th {
   text-align: left;
   height: 30px;
+}
+.container footer {
+  text-align: center;
+  widows: 100%;
+  background-color: lightsteelblue;
+  padding: 5%;
 }
