@@ -146,8 +146,18 @@ body {
   font-size: 1.6rem;
   margin: 0 auto;
 }
-header nav {
+header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+}
+header nav {
   margin: 20px 0;
+}
+header a {
+  padding: 0 0 0 20px;
+  text-decoration: none;
+  color: black;
+}
+.picture {
+  padding: 1% 1% 1% 1%;
 }
