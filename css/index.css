@@ -146,48 +146,48 @@ body {
   font-size: 1.6rem;
   margin: 0 auto;
 }
-header {
+.container header {
   display: flex;
   justify-content: flex-end;
 }
 @media (max-width: 500px) {
-  header {
+  .container header {
     display: flex;
     justify-content: center;
   }
 }
-header nav {
+.container header nav {
   margin: 20px 0;
 }
 @media (max-width: 500px) {
-  header nav {
+  .container header nav {
     display: flex;
     flex-direction: column;
   }
 }
-header a {
+.container header nav a {
   padding: 0 0 0 20px;
   text-decoration: none;
   color: black;
 }
 @media (max-width: 500px) {
-  header a {
+  .container header nav a {
     padding: 10%;
   }
 }
-.top-section {
+.container .top-section {
   background-color: darkgray;
 }
 @media (max-width: 500px) {
-  .top-section {
+  .container .top-section {
     background-color: lightskyblue;
   }
 }
-.picture {
+.container .top-section .picture {
   padding: 10% 60% 5% 5%;
 }
 @media (max-width: 500px) {
-  .picture {
+  .container .top-section .picture {
     display: flex;
     justify-content: center;
     padding: 10%;
