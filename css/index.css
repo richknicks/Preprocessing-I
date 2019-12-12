@@ -132,7 +132,6 @@ table {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid red;
 }
 html,
 body {
@@ -140,4 +139,5 @@ body {
   font-size: 62.5%;
   width: 800px;
   margin: 0 auto;
+  border: 1px solid red;
 }
