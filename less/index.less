@@ -132,7 +132,8 @@ table {
 /* Set every element's box-sizing to border-box */
 // variables
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-
+@google-font: 'Pacifico', cursive;
+@favorite-color: olive;
 
 * {
   box-sizing: border-box;
@@ -147,7 +148,7 @@ body {
   font-size: 62.5%;
   width: 800px;
   margin: 0 auto;
-  font-family: 'Pacifico', cursive;
+  font-family: @google-font;
 
   
 }
@@ -183,7 +184,7 @@ body {
   .top-section {
     background-color: darkgray;
     @media (max-width: 500px) {
-      background-color: lightskyblue;
+      background-color: @favorite-color;
     }
     .picture {
       padding: 10% 60% 0 5%;

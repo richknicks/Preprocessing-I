@@ -187,7 +187,7 @@ body {
 }
 @media (max-width: 500px) {
   .container .top-section {
-    background-color: lightskyblue;
+    background-color: olive;
   }
 }
 .container .top-section .picture {
