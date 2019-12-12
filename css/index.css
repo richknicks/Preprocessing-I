@@ -200,3 +200,25 @@ body {
 .container .top-section .main-title h1 {
   font-size: 5rem;
 }
+.container .top-section .main-title p {
+  margin: 3% 0;
+  font-size: 1.6rem;
+}
+.container .top-section .under-title {
+  margin: 0 5%;
+}
+.container .top-section .under-title button {
+  border: 1px solid black;
+  padding: 11px 0;
+  width: 25%;
+  background-color: gray;
+  color: white;
+  font-size: 1.7rem;
+  margin: 3% 0 10%;
+}
+@media (max-width: 500px) {
+  .container .top-section .under-title button {
+    margin: 6% 0 5% 23%;
+    width: 50%;
+  }
+}
