@@ -180,6 +180,8 @@ body {
 @media (max-width: 500px) {
   .container header nav a {
     padding: 10%;
+    font-size: 1.6rem;
+    color: chartreuse;
   }
 }
 .container .top-section {
@@ -218,7 +220,7 @@ body {
   border: 1px solid black;
   padding: 11px 0;
   width: 25%;
-  background-color: gray;
+  background-color: red;
   color: white;
   font-size: 1.7rem;
   margin: 3% 0 10%;
@@ -227,6 +229,7 @@ body {
   .container .top-section .under-title button {
     margin: 6% 0 5% 23%;
     width: 50%;
+    background-color: black;
   }
 }
 .container .middle-section {
