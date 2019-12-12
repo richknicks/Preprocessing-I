@@ -130,6 +130,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -221,27 +222,34 @@ body {
     justify-content: space-between;
     margin: 5% 0;
     .left-box {
-      width: 47.5%;
+	  width: 47.5%;
+	  line-height: 40px;
       h2 {
         font-size: 3rem;
       } // h2 left box
     } // left box
     .right-box {
-      width: 47.5%;
+	  width: 47.5%;
+	  line-height: 40px;
       h2 {
         font-size: 2rem;
-      } //h2 right box
-      tr {
-        border: 1px solid lightgray;
-        td {
-          height: 30px;
-          border: 1px solid lightgray;
-        } //td work history
-        th {
-          text-align: left;
-          height: 30px;
-        } //th work history
-      } //tr work history
+	  } //h2 right box
+	  .skills-table {
+		  width: 100%;
+		  tr {
+			border: 1px solid lightgray;
+			td {
+			  height: 30px;
+			  border: 1px solid lightgray;
+			} //td work history
+			th {
+			  text-align: left;
+			  height: 30px;
+			} //th work history
+		  } //tr work history
+
+	  }//skills table
+     
     } // right box
   } // middle section
   .bottom-section-table {
@@ -250,7 +258,8 @@ body {
       font-size: 2rem;
     } //h2 bottom section
     .work-history {
-      width: 100%;
+	  width: 100%;
+	  line-height: 40px;
 
       tr {
         border: 1px solid lightgray;

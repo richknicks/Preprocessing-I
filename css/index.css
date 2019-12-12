@@ -229,24 +229,29 @@ body {
 }
 .container .middle-section .left-box {
   width: 47.5%;
+  line-height: 40px;
 }
 .container .middle-section .left-box h2 {
   font-size: 3rem;
 }
 .container .middle-section .right-box {
   width: 47.5%;
+  line-height: 40px;
 }
 .container .middle-section .right-box h2 {
   font-size: 2rem;
 }
-.container .middle-section .right-box tr {
+.container .middle-section .right-box .skills-table {
+  width: 100%;
+}
+.container .middle-section .right-box .skills-table tr {
   border: 1px solid lightgray;
 }
-.container .middle-section .right-box tr td {
+.container .middle-section .right-box .skills-table tr td {
   height: 30px;
   border: 1px solid lightgray;
 }
-.container .middle-section .right-box tr th {
+.container .middle-section .right-box .skills-table tr th {
   text-align: left;
   height: 30px;
 }
@@ -258,6 +263,7 @@ body {
 }
 .container .bottom-section-table .work-history {
   width: 100%;
+  line-height: 40px;
 }
 .container .bottom-section-table .work-history tr {
   border: 1px solid lightgray;
