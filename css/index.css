@@ -184,7 +184,7 @@ body {
   }
 }
 .container .top-section .picture {
-  padding: 10% 60% 5% 5%;
+  padding: 10% 60% 0 5%;
 }
 @media (max-width: 500px) {
   .container .top-section .picture {
@@ -192,4 +192,10 @@ body {
     justify-content: center;
     padding: 10%;
   }
+}
+.container .top-section .main-title {
+  margin: 0 0 3% 5%;
+}
+.container .top-section .main-title h1 {
+  font-size: 5rem;
 }
