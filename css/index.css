@@ -119,7 +119,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -194,7 +194,8 @@ body {
   }
 }
 .container .top-section .main-title {
-  margin: 0 0 3% 5%;
+  margin: 0 5% 3% 5%;
+  border-bottom: 1px solid gray;
 }
 .container .top-section .main-title h1 {
   font-size: 5rem;
