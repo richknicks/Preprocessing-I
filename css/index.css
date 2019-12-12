@@ -159,11 +159,37 @@ header {
 header nav {
   margin: 20px 0;
 }
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
 header a {
   padding: 0 0 0 20px;
   text-decoration: none;
   color: black;
 }
-top .picture {
-  padding: 1% 1% 1% 1%;
+@media (max-width: 500px) {
+  header a {
+    padding: 10%;
+  }
+}
+.top-section {
+  background-color: darkgray;
+}
+@media (max-width: 500px) {
+  .top-section {
+    background-color: lightskyblue;
+  }
+}
+.picture {
+  padding: 10% 60% 5% 5%;
+}
+@media (max-width: 500px) {
+  .picture {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+  }
 }

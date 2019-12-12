@@ -79,17 +79,35 @@ header {
 	}
 	nav {
 		margin: 20px 0;
+		@media(max-width: 500px) {
+			display: flex;
+			flex-direction: column;
+		}
 	} //nav
 	a {
 		padding: 0 0 0 20px;
 		text-decoration: none;
 		color: black;
+		@media(max-width: 500px) {
+			padding: 10%;
+		}
 	} //a
 } //header
 
-top
+.top-section {
+	background-color: darkgray;
+	@media(max-width: 500px) {
+		background-color: lightskyblue;
+	}
+	
+}
  
 
 .picture {
-	padding: 1% 1% 1% 1%;
+	padding: 10% 60% 5% 5%;
+	@media(max-width: 500px) {
+	display: flex;
+	justify-content: center;
+	padding: 10%;
+	}	
 }
