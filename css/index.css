@@ -222,3 +222,16 @@ body {
     width: 50%;
   }
 }
+.container .middle-section {
+  display: flex;
+  justify-content: space-between;
+}
+.container .middle-section .left-box {
+  width: 47.5%;
+}
+.container .middle-section .left-box h2 {
+  font-size: 2rem;
+}
+.container .middle-section .right-box {
+  width: 47.5%;
+}
