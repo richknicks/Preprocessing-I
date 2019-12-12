@@ -131,8 +131,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 // variables
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-@google-font: 'Pacifico', cursive;
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+@google-font: "Pacifico", cursive;
 @favorite-color: olive;
 
 * {
@@ -149,21 +149,19 @@ body {
   width: 800px;
   margin: 0 auto;
   font-family: @google-font;
-
-  
 }
 //mixin1 in media query on a selector
-.media (){
-    padding: 10%;
-		  font-size: 1.6rem;
-		  color: chartreuse;
+.media () {
+  padding: 10%;
+  font-size: 1.6rem;
+  color: chartreuse;
 }
 //mixin2 in middle section
-.mixin2 (){
-	display: flex;
-    justify-content: space-between;
-    margin: 5% 0;
-  }
+.mixin2 () {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
 .container {
   max-width: 80%;
   font-size: 1.6rem;
@@ -184,10 +182,10 @@ body {
       a {
         padding: 0 0 0 20px;
         text-decoration: none;
-		color: black;
-		
+        color: black;
+
         @media (max-width: 500px) {
-			.media ();
+          .media ();
         }
       } //a
     } //nav
@@ -227,12 +225,12 @@ body {
         background-color: red;
         color: white;
         font-size: 1.7rem;
-		margin: 3% 0 10%;
-		
+        margin: 3% 0 10%;
+
         @media (max-width: 500px) {
           margin: 6% 0 5% 23%;
-		  width: 50%;
-		  background-color: black;
+          width: 50%;
+          background-color: black;
         }
       } // button
     } //under-title
@@ -241,8 +239,8 @@ body {
     .mixin2 ();
     .left-box {
       width: 47.5%;
-	  line-height: 68px;
-	  
+      line-height: 68px;
+
       h2 {
         font-size: 3rem;
       } // h2 left box
@@ -295,7 +293,6 @@ body {
     text-align: center;
     widows: 100%;
     background-color: lightsteelblue;
-	padding: 5%;
-	
+    padding: 5%;
   } //footer
 } // container
