@@ -1,1 +1,294 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+  width: 800px;
+  margin: 0 auto;
+  font-family: "Pacifico", cursive;
+}
+.container {
+  max-width: 80%;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+.container header {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 500px) {
+  .container header {
+    display: flex;
+    justify-content: center;
+  }
+}
+.container header nav {
+  margin: 20px 0;
+}
+@media (max-width: 500px) {
+  .container header nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container header nav a {
+  padding: 0 0 0 20px;
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 500px) {
+  .container header nav a {
+    padding: 10%;
+    font-size: 1.6rem;
+    color: chartreuse;
+  }
+}
+.container .top-section {
+  background-color: darkgray;
+}
+@media (max-width: 500px) {
+  .container .top-section {
+    background-color: olive;
+  }
+}
+.container .top-section .picture {
+  padding: 10% 60% 0 5%;
+}
+@media (max-width: 500px) {
+  .container .top-section .picture {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+  }
+}
+.container .top-section .main-title {
+  margin: 0 5% 3% 5%;
+  border-bottom: 1px solid gray;
+}
+.container .top-section .main-title h1 {
+  font-size: 5rem;
+}
+.container .top-section .main-title p {
+  margin: 3% 0;
+  font-size: 1.6rem;
+}
+.container .top-section .under-title {
+  margin: 0 5%;
+}
+.container .top-section .under-title button {
+  border: 1px solid black;
+  padding: 11px 0;
+  width: 25%;
+  background-color: red;
+  color: white;
+  font-size: 1.7rem;
+  margin: 3% 0 10%;
+}
+@media (max-width: 500px) {
+  .container .top-section .under-title button {
+    margin: 6% 0 5% 23%;
+    width: 50%;
+    background-color: black;
+  }
+}
+.container .middle-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+.container .middle-section .left-box {
+  width: 47.5%;
+  line-height: 68px;
+}
+.container .middle-section .left-box h2 {
+  font-size: 3rem;
+}
+.container .middle-section .right-box {
+  width: 47.5%;
+  line-height: 40px;
+}
+.container .middle-section .right-box h2 {
+  font-size: 2rem;
+}
+.container .middle-section .right-box .skills-table {
+  width: 100%;
+}
+.container .middle-section .right-box .skills-table tr {
+  border: 1px solid lightgray;
+}
+.container .middle-section .right-box .skills-table tr td {
+  height: 30px;
+  border: 1px solid lightgray;
+}
+.container .middle-section .right-box .skills-table tr th {
+  text-align: left;
+  height: 30px;
+}
+.container .bottom-section-table {
+  margin: 5% 0;
+}
+.container .bottom-section-table h2 {
+  font-size: 2rem;
+}
+.container .bottom-section-table .work-history {
+  width: 100%;
+  line-height: 40px;
+}
+.container .bottom-section-table .work-history tr {
+  border: 1px solid lightgray;
+}
+.container .bottom-section-table .work-history tr td {
+  height: 30px;
+  border: 1px solid lightgray;
+}
+.container .bottom-section-table .work-history tr th {
+  text-align: left;
+  height: 30px;
+}
+.container footer {
+  text-align: center;
+  widows: 100%;
+  background-color: lightsteelblue;
+  padding: 5%;
+}
